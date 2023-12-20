@@ -10,7 +10,7 @@ from PIL import Image
 
 mydb = psycopg2.connect(host = "localhost",
                         user = "postgres",
-                        password = "vela",
+                        password = "******",
                         database = "phonepe_data",
                         port = "5432"
                         )
